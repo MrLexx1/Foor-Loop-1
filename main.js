@@ -1,3 +1,4 @@
 // TUGAS PERTAMA
-let nilai = prompt("Masukkan angka");
-for (let i = 3; i <= 10; i++) console.log(i);
+let nilaiAwal = prompt("Masukkan Nilai Awal : ");
+let nilaiAkhir = prompt("Masukkan Nilai Akhir : ");
+for (let i = nilaiAwal; i <= nilaiAkhir; i++) console.log(i);
